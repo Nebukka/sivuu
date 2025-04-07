@@ -1,0 +1,21 @@
+{
+    "name": "elixa-reseller-backend",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+      "dev": "nodemon server.js",
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.9.20",
+      "dotenv": "^8.2.0",
+      "cors": "^2.8.5",
+      "stripe": "^8.0.0",
+      "coinbase-commerce-node": "^2.0.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.6"
+    }
+  }
+  
